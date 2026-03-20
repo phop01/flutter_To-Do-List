@@ -1,16 +1,10 @@
-# to_do_list
+# 📝 Flutter To-Do List (Mobile App)
 
-A new Flutter project.
+แอปพลิเคชันสำหรับจัดการรายการงาน (To-Do List) พัฒนาด้วย Framework Flutter โดยเน้นความเรียบง่าย ประสิทธิภาพ และการจัดเก็บข้อมูลอย่างเป็นระบบ
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🌟 ฟีเจอร์หลัก (Key Features)
+- **Complete CRUD**: รองรับการ เพิ่ม (Create), แสดงผล (Read), แก้ไข (Update) และ ลบ (Delete) รายการงานได้อย่างสมบูรณ์
+- **Task Management**: ระบบติ๊กถูกเพื่อทำเครื่องหมายว่า "เสร็จสิ้น" พร้อมการแสดงผลแบบขีดทับ (Line-through)
+- **Persistence Storage**: มีระบบบันทึกข้อมูลถาวรภายในเครื่องด้วย `shared_preferences` ทำให้ข้อมูลไม่สูญหายเมื่อปิดและเปิดแอปใหม่
+- **Dual-View Filtering**: แยกหน้าจอการแสดงผลชัดเจนระหว่างงานที่ "กำลังดำเนินการ" และงานที่ "เสร็จสมบูรณ์แล้ว" เพื่อความสะดวกในการใช้งาน
+- **Modern UI**: ออกแบบตามหลัก Material Design 3 ให้ความรู้สึกทันสมัยและสะอาดตา
